@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(221, 227, 222);
+    
+}
+
+.navbar {
+    background-color: rgb(221, 227, 222);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.2);
+    margin-left: -25px;
+}
+
+ul a {
+    font-size: 20px;
+    font-family: 'Hind Madurai', sans-serif;
+    color:rgb(40, 109, 113);
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundColorText {
+margin-top: 25rem;
+font-family: 'Hind Madurai', sans-serif;
+font-size: 30px;
+background-color: rgb(57, 50, 50);
+color:aliceblue;
+border-radius: 20px;
+padding: 10px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.2);
+}
+
+.color {
+    color: rgb(252, 18, 49);
+    font-weight: bold;
+}
+
+.red {
+    color: rgb(237, 50, 50);
+    font-size: 30px;
+}
+
+.orange {
+    color: rgb(214, 158, 54);
+    font-size: 30px;
+}
+
+.yellow {
+    color: rgb(199, 199, 16);
+    font-size: 30px;
+}
+
+.green {
+    color: rgb(18, 167, 18);
+    font-size: 30px;
+}
+
+.blue {
+    color: rgb(18, 18, 210);
+    font-size: 30px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.changeColor {
+    padding: 10px 25px 10px 25px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.3), 0 1px 10px 0 rgba(0,0,0,0.2);
+    border-color: rgb(221, 227, 222);
+    border-radius: 10px;
+    color:rgb(40, 109, 113);
+    background-color: rgb(221, 227, 222);
+}
