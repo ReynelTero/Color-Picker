@@ -1,2 +1,2 @@
 # Color-Picker
-Live: https://reyneltero.github.io/Color-Picker/
+Live: https://reyneltero.github.io/Random-Color-Picker/
