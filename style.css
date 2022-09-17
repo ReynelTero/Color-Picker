@@ -42,8 +42,10 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.2);
 }
 
 .color {
-    color: rgb(252, 18, 49);
-    font-weight: bold;
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 5px 3px 5px 3px;
+    font-size: 40px;
 }
 
 .red {
@@ -80,12 +82,11 @@ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.2);
 .changeColor {
     padding: 10px 25px 10px 25px;
     font-family: 'Hind Madurai', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.3), 0 1px 10px 0 rgba(0,0,0,0.2);
-    border-color: rgb(221, 227, 222);
+    border-color: aliceblue;
     border-radius: 10px;
-    color:rgb(40, 109, 113);
-    background-color: rgb(221, 227, 222);
+    color:aliceblue;
+    background: rgb(57, 50, 50);
 }

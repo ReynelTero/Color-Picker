@@ -1,17 +1,24 @@
-const primaryColors = ['#FF0000', '#FFA500', '#FFFF00', '#00FF00', '#0000FF', '#4B0082', '#8F00FF'];
+const colors = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F'];
 
 const color = document.querySelector('.color');
 const btn = document.getElementById('btn');
 
+btn.addEventListener('click', () => {
 
-btn.addEventListener('click', function() {
-    const randomNumber = randomize();
-    document.body.style.backgroundColor = primaryColors[randomNumber];
-    color.textContent = primaryColors[randomNumber];
+    let hex = '#';
+
+    for (let i = 0; i < 6; i++) {
+        hex += colors[randomize()];
+    }
+
+    color.textContent = hex;
+    color.style.color = hex;
+    document.body.style.backgroundColor = hex;
+
 });
 
-function randomize() {
-    return Math.floor(Math.random() * primaryColors.length);
+const randomize = () => {
+    return Math.floor(Math.random() * colors.length);
 }
 
 
